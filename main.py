@@ -21,6 +21,7 @@ app.add_middleware(
     allow_headers=["*"],        # allow all headers
 )
 model = ChatOpenAI(model="gpt-4.1")
+app=FastAPI()
 
 class QueryRequest(BaseModel):
     url: str
