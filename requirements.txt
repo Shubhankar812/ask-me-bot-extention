@@ -1,0 +1,19 @@
+#langchain
+
+langchain
+langchain-core
+langchain_community
+
+# OpenAI Integration
+langchain-openai
+openai
+
+# Environment Variable Management
+python-dotenv
+
+# backend Framework 
+fastapi
+uvicorn
+
+
+
